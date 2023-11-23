@@ -10,7 +10,7 @@ pipeline
             {
                echo 'Fetching the Maven Project from github'
 git branch: 'main',
-url: 'https://github.com/Gauravkumar1502/DevOpsPractical'
+url: 'https://github.com/pratapmukherjee/remoterepo'
             }
         }
         stage('validate')
